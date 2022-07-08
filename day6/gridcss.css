@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: ;
+  background-color: #2196F3;
+  padding: 20px;
+  
+}
+
+
+.logo {
+gap: 10px;
+  background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.8) ;
+  padding: 10px;
+  
+  font-size: 30px;
+  text-align: center;
+}
+.navigation {
+  background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.header {
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .sidebar {
+    float: left;
+    width: 39%;
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer {
+     
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 110px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .body {
+    
+    height: 154px;
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+      
+</style>
+</head>
+</html>

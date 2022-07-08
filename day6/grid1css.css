@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  
+  background-color: #2196F3;
+  padding: 20px;
+  
+}
+
+
+.logo {
+gap: 10px;
+  background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.8) ;
+  padding: 10px;
+  
+  font-size: 30px;
+  
+}
+.navigation {
+  background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.header {
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .box1 {
+    float: left;
+    width: 23%;
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .box2 {
+    float: left;
+    width: 22%;
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer{
+    float: left;
+    width: 90.7%;
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 70     px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .box3 {
+    float: left;
+    width: 23%;
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  
+      
+</style>
+</head>
+</html>
