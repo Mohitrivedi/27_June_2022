@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">	
+	
+	function alertjs(){
+			alert('Hii')
+		}
+
+		function promptjs(){
+			prompt('Name')
+		}
+
+		function confirmjs(){
+			confirm('Done !')
+		}
+	</script>
+	<style type="text/css">
+		h1{
+			color:burlywood;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<hr>
+	<h1 style="color:burlywood">INLINE JS </h1>
+	<input type="button" name="but" value="alert" onclick="alert('Hello !')"><br><br>
+	<input type="button" name="but1" value="prompt" onclick="prompt('Enter Name: ')"><br><br>
+	<input type="button" name="but1" value="confirm" onclick="confirm('Good !')"><br><br><br>
+	</hr>
+
+	<hr>
+	<h1> INTERNAL JS</h1>
+	<input type="button" name="button" value="alert" onclick="alertjs()"><br><br>
+	<input type="button" name="buttton1" value="prompt" onclick="promptjs()"><br><br>
+	<input type="button" name="buttton2" value="confirm" onclick="confirmjs()"><br><br><br>
+	</hr>
+
+	<hr>
+	<h1> EXTERNAL JS</h1>
+	<input id="a" type="button" name="ebutton1" value="alert" onclick="alertjs1()"><br><br>
+	<input id="b" type="button" name="ebutton2" value="prompt" onclick="promptjs1()"><br><br>
+	<input id="c" type="button" name="ebutton3" value="confirm" onclick="confirmjs1()"><br><br>
+	
+	
+</hr>
+</body>
+</html>
