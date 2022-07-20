@@ -1,0 +1,19 @@
+body{
+	background-color: burlywood;
+}
+
+#age{
+	height: 30px;
+	width: 30px;
+	color:blue;
+}
+
+#agerange,#pricerange{
+	width:300px;
+}
+
+#startvalue,#stopvalue,#changevalue,#slidevalue{
+	width:100px;
+	height: 30px;
+	color:blue;
+}

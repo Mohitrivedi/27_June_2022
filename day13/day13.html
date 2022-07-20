@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel ="stylesheet" type="text/css" />
+      <script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#agerange").slider({
+				min:18,
+				max:50,
+				value:18,
+				slide:function(event,ui){
+					$("#age").val(ui.value);
+		}
+	});
+
+		$("#age").val($("#agerange").slider("value"));
+
+		$("#pricerange").slider({
+			min:1,
+			max:100,
+			range:true,
+			value:[1, 50],
+			start: function(event, ui){
+				$("#startvalue").val("₹" + ui.values[0]);
+			},
+
+			stop: function(event, ui){
+				$("#stopvalue").val("₹" + ui.values[1]);
+			},
+
+			change: function(event, ui){
+				$("#changevalue").val("₹" + ui.values[0] + " - ₹" + ui.values[1]);
+			},
+
+			slide: function(event, ui){
+				$("#slidevalue").val("₹" + ui.values[0] + " - ₹" + ui.values[1]);
+			}
+		});
+});
+	</script>
+</head>
+<body>
+	<label>ENTER YOUR AGE:</label>
+	<input type="text" id="age" disabled="true"><br>
+	<div id="agerange"></div>
+	<hr>
+	<div id="pricerange"></div><br>
+
+	<label>START VALUE</label>
+	<input type="text" id="startvalue" disabled="true"><br><br>
+
+
+	<label>STOP VALUE</label>
+	<input type="text" id="stopvalue" disabled="true"><br><br>
+
+
+	<label>CHANGE IN RANGE</label>
+	<input type="text" id="changevalue" disabled="true"><br><br>
+
+
+	<label>SLIDE VALUE</label>
+	<input type="text" id="slidevalue" disabled="true"><br><br>
+</body>
+</html>

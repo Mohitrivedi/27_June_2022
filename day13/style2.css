@@ -1,0 +1,39 @@
+#one{
+	background-color: orangered;
+	height: 200px;
+	width: 300px;
+}
+
+#two{
+	background-color: yellowgreen;
+	height: 200px;
+	width: 350px;
+}
+
+#three{
+	background-color: blue;
+	height: 200px;
+	width: 400px;
+}
+
+#four{
+	background-color: brown;
+	height: 200px;
+	width: 450px;
+}
+
+#five{
+	background-color: orange;
+	height: 200px;
+	width: 500px;
+}
+
+#six{
+	background-color: lightgreen;
+	height: 200px;
+	width: 550px;
+}
+
+span{
+	color:black;
+}
