@@ -1,0 +1,21 @@
+
+.maincontainer{
+    
+    border: 5px;
+    border-style: double;
+    border-color: blueviolet;
+   align-items: center;
+    
+}
+.item{
+    
+    padding: 100px;
+    
+}
+.item1{
+    background-color: greenyellow;
+    
+}
+.item2{
+    background-color: purple;
+}
